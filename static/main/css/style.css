@@ -1,0 +1,81 @@
+body {
+    background: rgb(120, 219, 226);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    margin: 30px auto;
+}
+
+.image {
+    background-color: rgb(120, 219, 226);
+    margin: 20px 0;
+}
+
+.siteLink {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.siteLink:hover {
+    color: rgb(251,255, 0);
+    background-color:rgb(32, 178, 170);
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+    
+}
+
+form {
+    text-align: center;
+    margin: 30px;
+}
+
+.navbar {
+    
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    text-size:200%;
+    float: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.content h1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.home p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 500px;
+    
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts ul {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.research {
+    text-align: start;
+    padding: 0 500px
+}
